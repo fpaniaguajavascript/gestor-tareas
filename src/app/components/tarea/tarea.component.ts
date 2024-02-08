@@ -8,6 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './tarea.component.scss'
 })
 export class TareaComponent {
-  @Input() nombre:string="";
-  public duracion:number=8;
+  
 }
