@@ -1,9 +1,16 @@
 $text_color:blue;
 .task {
-    width: 100px;
-    height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 80px;
     background-color: gainsboro;
     border-radius: 5px;
     box-shadow: 5px 5px 5px gray;
-    margin-bottom: 10px;
+    margin: 10px;
+    padding-top: 1em;
+    float: left;
+}
+
+.nombre-tarea {
+    font-size: 2em;
 }
