@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Tarea } from '../../interfaces/tarea';
 
 @Component({
   selector: 'task',
@@ -8,5 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './tarea.component.scss'
 })
 export class TareaComponent {
-  
+  @Input() tarea:Tarea={nombre:"",duracion:0};
 }
